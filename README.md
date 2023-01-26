@@ -15,12 +15,12 @@
 ## Параметры темплейта
 
 Поддерживается две переменные: 
-- {f} - имя файла
-- {fnoext} - имя файла без расширения
+- `{f}` - имя файла
+- `{fnoext}` - имя файла без расширения
 
 Программа умеет сохранять в JPG или PNG, ориентируясь на конец отрендеренного файла.
-`pymakepreview.py {fnoext}.preview.png somefilename.zip` - сохранит буфер обмена в `somefilename.preview.png` в PNG
-`pymakepreview.py {f}.preview.jpg somefilename.zip` - сохранит буфер обмена в `somefilename.zip.preview.jpg` в JPG
+- `pymakepreview.py {fnoext}.preview.png somefilename.zip` - сохранит буфер обмена в `somefilename.preview.png` в PNG
+- `pymakepreview.py {f}.preview.jpg somefilename.zip` - сохранит буфер обмена в `somefilename.zip.preview.jpg` в JPG
 
 ## Контекст использования в Windows
 
